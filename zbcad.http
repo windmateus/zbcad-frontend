@@ -1,0 +1,28 @@
+http://localhost:3000/plataformas
+
+
+###
+GET http://localhost:3000/plataformas/2
+
+###
+
+POST http://localhost:3000/plataformas HTTP/1.1
+content-type: application/json
+
+{
+    "nome": "PlayStation 3"
+}
+
+###
+
+PUT http://localhost:3000/plataformas/3 HTTP/1.1
+content-type: application/json
+
+{
+    "nome": "PlayStation 3!"
+}
+
+
+###
+
+DELETE http://localhost:3000/plataformas/3

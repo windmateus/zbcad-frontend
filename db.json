@@ -1,0 +1,12 @@
+{
+  "plataformas": [
+    {
+      "id": 1,
+      "nome": "PlayStation 1"
+    },
+    {
+      "id": 2,
+      "nome": "PlayStation 2"
+    }
+  ]
+}
